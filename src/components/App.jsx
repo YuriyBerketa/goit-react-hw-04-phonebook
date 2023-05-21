@@ -47,9 +47,6 @@ function deleteContact(contactId) {
     setFilter( event.currentTarget.value )
   };
 
-function deleteContact(contactId) {
-  setContacts(prevContacts => prevContacts.filter(contact => contact.id !== contactId));
-  };
 
   
   
